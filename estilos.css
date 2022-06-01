@@ -1,0 +1,179 @@
+/*ESTRUCTURA DE LA PÁGINA*/
+
+*{
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    background-color: white;
+    padding-bottom: 4em;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+header {
+    background-color: rgb(233, 76, 107);
+    padding: 1.5em 0;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 2px royalblue;
+}
+
+header div {
+    width: 120px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+img {
+    width: 110px;
+    float: left;
+}
+
+aside {
+    width: 25%;
+    height: 100vh;
+    background-color: royalblue;
+    position: absolute;
+    left: 0;
+    margin-top: -16px;
+}
+
+aside ul li {
+    padding-top: 50px;
+}
+
+a:link, a:visited {
+    font-family: sans-serif;
+    color: #f1f1f1;
+}
+
+a:hover {
+    font-family: sans-serif;
+    color: rgb(233, 76, 107);
+}
+
+article {
+    width: 75%;
+    height: 100vh;
+    background-color: #333;
+    position: absolute;
+    right: 0;
+    margin-top: -16px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(233, 76, 107);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    position: fixed;
+}
+
+footer h3 {
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+/*ESTILO API1*/
+
+.contenedorAPI1 {
+    display: inline-block;
+    background-color: #f1f1f1;
+    width: 250px;
+    height: 180px;
+    margin: 50px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 6px;
+    border: 10px solid royalblue;
+    box-shadow: 1px 2px 4px black;
+    float: left;
+}
+
+.contenedorAPI1 .raza {
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+}
+
+.contenedorAPI1 .origen {
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+}
+
+.contenedorAPI1 h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+.imgperro {
+    padding-left: 75px;
+}
+
+/*ESTILO API2*/
+
+.contenedorAPI2 {
+    display: inline-block;
+    background-color: #f1f1f1;
+    width: 250px;
+    height: 180px;
+    margin: 50px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 6px;
+    border: 10px solid royalblue;
+    box-shadow: 1px 2px 4px black;
+}
+
+.contenedorAPI2 .nombre {
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+}
+
+.contenedorAPI2 .detalles {
+    text-align: center;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+}
+
+.contenedorAPI2 h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+.imgpoke {
+    padding-left: 75px;
+}
+
+
+/*FRASES*/
+
+#frase1 {
+    text-shadow: 1.2px 1.2px orange;
+}
+
+#frase2 {
+    text-shadow: 1.2px 1.2px greenyellow;
+}
+
+#frase3 {
+    text-shadow: 1.2px 1.2px rgb(243, 2, 243);
+}
